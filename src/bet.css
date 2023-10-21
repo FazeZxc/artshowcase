@@ -1,0 +1,31 @@
+
+
+.info-inner{
+    display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    aspect-ratio: 16/9;
+}
+
+
+.figure{
+    width: 40vw;
+    height: 40vh;
+    aspect-ratio: 16/9;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.dotnav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    
+
+}
+
+
