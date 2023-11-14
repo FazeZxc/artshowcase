@@ -77,6 +77,10 @@ function circleMouseFollower(xscale, yscale) {
 }
 
 
+gsap.from()
+
+
+
 
 
 circleMouseFollower();
